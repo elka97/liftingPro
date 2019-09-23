@@ -1,0 +1,231 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#choose
+{
+	padding-top: 40px;
+}
+
+#choose .modal-content
+{
+	width: 840px;
+}
+
+#choose .flex
+{
+	display: flex;
+	justify-content:space-around;
+	flex-wrap: wrap;
+}
+
+#choose .flex > div
+{
+	width: 100%;
+    max-width: 340px;
+    padding: 20px;
+    background: #eff5f9;
+    border-radius: 20px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	
+}
+#choose .name
+{
+	color: #374150;
+	font-size: 23px;
+	padding-bottom: 20px;
+}
+
+#choose .name b
+{
+	display: block;
+}
+
+#choose .price
+{
+	color: #374150;
+	font-size: 30px;
+	padding-bottom: 20px;
+	margin: 0;
+	font-weight: normal;
+	font-family: 'Museo';
+}
+
+#choose .price b
+{
+	font-weight: 600;
+	font-family: 'Museo';
+}
+#choose .description
+{
+	color: #374150;
+	font-size: 18px;
+	padding-bottom: 20px;
+	margin: 0;
+	font-weight: normal;
+	height: 150px;
+}
+
+#choose .buy_marth
+{
+	font-size: 24px;
+	font-weight: 500;
+	color: #fff;
+	padding: 10px 50px;
+	background: #d40d52;
+	transition: 0.3s;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 5px;
+	text-decoration: none;
+	    margin: 0 auto;
+    display: block;
+}
+
+#choose .buy_marth:hover
+{
+	background: #f11a64;
+}
+
+.calendar_flex
+	{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	
+.calendar_flex > .block_month
+	{
+		width: 24%;
+		display: flex;
+    	flex-wrap: wrap;
+		min-width: 264px;
+		font-size: 10px;
+		align-content: baseline;
+	}
+	
+.calendar_flex > .block_month .name_month_c
+	{
+		width: 100%;
+    padding: 5px 0;
+    font-size: 20px;
+    padding-top: 30px;
+	}
+#time
+{
+	padding-top: 0 !important;
+	    z-index: 15;
+}
+.calendar_flex > .block_month .day	
+	{
+		width: 12%;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		margin: 3px;
+		padding: 2.7% 0;
+		border-radius: 100%;
+		justify-content: center;
+	}
+	
+	.reboot_d
+	{
+		background: #FFB2CC;
+	}
+	
+	.expr_d
+	{
+		background: #FFE37F;
+	}
+	
+	.expr_d.reboot_d
+	{
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffb2cc+50,7db9e8+50,ffe37f+50 */
+background: #ffb2cc; /* Old browsers */
+background: -moz-linear-gradient(top, #ffb2cc 50%, #7db9e8 50%, #ffe37f 50%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ffb2cc 50%,#7db9e8 50%,#ffe37f 50%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ffb2cc 50%,#7db9e8 50%,#ffe37f 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb2cc', endColorstr='#ffe37f',GradientType=0 ); /* IE6-9 */
+	}
+.blur
+{
+	-webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    filter: blur(5px);
+}
+
+/*MODAL*/
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 14; /* Sit on top */
+  padding-top: 40px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 0px solid #888;
+	    border-radius: 10px;
+  width: 80%;
+    max-height: 90vh;
+    overflow: auto;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*******/
+
+
+#thnaks
+{
+	min-height: 100vh;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#thnaks img
+{
+	max-width: 100px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 10vh;
+}
+
+#thnaks b
+{
+	font-size: 46px;
+	color: #d40d52;
+	display: block;
+}
+
+#thnaks p
+{
+	font-size: 32px;
+	color: #374150;
+}
